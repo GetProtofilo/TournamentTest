@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Admin Login</h1>
+    <a href="index.html" class="back-btn">← Home</a>
+  </header>
+  <main>
+    <div class="form" id="login-section">
+      <input type="password" id="admin-pass" placeholder="Enter Admin Password" />
+      <button class="btn" onclick="verify()">Login</button>
+    </div>
+
+    <div id="admin-panel" class="hidden">
+      <h2>Add Tournament</h2>
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="prize" placeholder="Prize" />
+      <input type="date" id="date" />
+      <button onclick="addTournament()" class="btn">Add</button>
+      <hr />
+      <h2>All Tournaments</h2>
+      <div id="all-tournaments" class="card-container"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
