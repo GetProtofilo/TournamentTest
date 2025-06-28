@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Solo Firestorm",
+    "date": "2025-07-01",
+    "prize": "$100",
+    "details": "Top 50 solo players battle for glory."
+  },
+  {
+    "id": 2,
+    "title": "Duo Domination",
+    "date": "2025-07-05",
+    "prize": "$200",
+    "details": "Teams of two. Brutal elimination rounds."
+  }
+]
