@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upcoming Tournaments</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .glow-btn {
+      box-shadow: 0 0 10px #f97316, 0 0 20px #f97316;
+      transition: all 0.3s ease-in-out;
+    }
+    .glow-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #fb923c, 0 0 25px #fb923c;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-black via-gray-900 to-black text-white min-h-screen p-6 font-sans">
+  <h2 class="text-4xl font-extrabold text-orange-400 text-center mb-10">🏆 Upcoming Tournaments</h2>
+  <div id="tournament-list" class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 px-4"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
